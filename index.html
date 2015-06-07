@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Ribbon theme for Shower</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="components/shower-ribbon/styles/screen.css">
+	<style>
+		.site{
+			background: url('images/site.png') -211px 0px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			background-size: 1380px;
+			display: flex;
+			padding-left: 110px;
+		}
+		.site .load{
+			margin: auto auto 70px;
+			padding: 10px;
+			background-color: rgba(100, 100, 100, 0.4);
+			font-weight: bold;
+			font-size: 50px;
+			font-family: monospace;
+		}
+		.slide .cover-header{
+			  text-align: center;
+			  /* margin-top: 360px; */
+			  position: absolute;
+			  width: 100%;
+			  left: 0;
+			  bottom: 0;
+			  padding: 40px 0;
+			  color: #222;
+			  margin-bottom: 0;
+			  font-size: 65px;
+			  background-color: rgba(100, 100, 100, 0.4);
+		}
+	</style>
+</head>
+<body class="list">
+	<header class="caption">
+		<h1>Web and rendering performance</h1>
+	</header>
+	<article class="slide shout" id="frontpage"><div>
+		<h2>Web and rendering performance</h2>
+		<p>Артем Свирский, 2015</p>
+		<style>
+			#frontpage h2{
+				font-size: 120px;
+			}
+			#frontpage p{
+				position: absolute;
+				bottom: -30px;
+				right: 40px;
+				color: #444;
+			}
+		</style>
+	</div></article>
+	<article class="slide shout"><div>
+		<h2>Мотивация</h2>
+	</div></article>
+	<article class="slide cover"><div>
+		<div class="site"></div>
+		<h2 class="cover-header next">Load: 8.325s</h2>
+	</div></article>
+	<article class="slide shout"><div>
+		<h2>Делаем все, что где-то слышали</h2>
+	</div></article>
+	<article class="slide cover"><div>
+		<div class="site"></div>
+		<h2 class="cover-header">Load: 7.528s</h2>
+	</div></article>
+	<article class="slide cover w h"><div>
+		<img src="images/code-debug.jpg" height="768" width="1366">
+		<h2 class="cover-header">Когда не работает код - мы его дебажим (спс, кэп)</h2>
+	</div></article>
+	<article class="slide cover w h"><div>
+		<img src="images/timeline.jpg" height="768" width="1366">
+		<h2 class="cover-header">Timeline - инструмент для дебага <br>загрузки и отрисовки</h2>
+	</div></article>
+	<article class="slide shout"><div>
+		<h2>Цель: понимать таймлайн</h2>
+	</div></article>
+	<article class="slide cover w h"><div>
+		<img src="images/tools-not-rules.jpg" height="768" width="1024" alt="">
+	</div></article>
+
+
+	<!-- <p class="badge"><a href="https://github.com/shower/shower">Fork me on Github</a></p> -->
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress"><div></div></div>
+	<script src="components/shower-core/shower.min.js"></script>
+	<!-- Copyright © 2013 Yours Truly, Famous Inc. -->
+</body>
+</html>
