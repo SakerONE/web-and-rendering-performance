@@ -7,6 +7,9 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<link rel="stylesheet" href="components/shower-ribbon/styles/screen.css">
 	<style>
+		.m-lh, .m-lh.slide code{
+			line-height: 150%;
+		}
 		.m-fs.slide{
 			font-size: 150%;
 		}
@@ -221,6 +224,38 @@
 	</div></article>
 	<article class="slide cover w"><div>
 		<img src="images/critical_rendering_path.PNG" alt="">
+	</div></article>
+	<article class="slide"><div>
+		<h2>Composite Layers</h2>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/jTRe1tvFYdE" frameborder="0" allowfullscreen></iframe>
+	</div></article>
+	<article class="slide m-lh"><div>
+		<h2>Layer Trigger</h2>
+
+		<pre>
+			<code>&lt;div>&lt;/div></code>
+		</pre>
+
+		<pre>
+			<code>div{</code>
+			<code>	transform: translateZ(0);</code>
+			<code>}</code>
+		</pre>
+		<pre>
+			<code>div{</code>
+			<code>	will-change: transform; <mark class="comment">/* chromium, firefox */</mark></code>
+			<code>}</code>
+		</pre>
+
+	</div></article>
+	<article class="slide cover w h"><div>
+		<img src="images/layers.jpg" height="768" width="1024">
+	</div></article>
+	<article class="slide cover w"><div>
+		<img src="images/critical_rendering_path.PNG" alt="">
+	</div></article>
+	<article class="slide shout"><div>
+		<h2>Простой пример</h2>
 	</div></article>
 
 
