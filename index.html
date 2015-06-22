@@ -7,6 +7,12 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<link rel="stylesheet" href="components/shower-ribbon/styles/screen.css">
 	<style>
+		.slide.shout.less-header h2{
+			font-size: 120px;
+		}
+		.m-lh, .slide.m-lh code{
+			line-height: 1.5;
+		}
 		.m-fs{
 			font-size: 120%;
 		}
@@ -294,9 +300,20 @@
 	<article class="slide shout"><div>
 		<h2>Composite Layers</h2>
 	</div></article>
-	<article class="slide"><div>
-		<h2>Composite Layers</h2>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/jTRe1tvFYdE" frameborder="0" allowfullscreen></iframe>
+	<article class="slide cover w"><div>
+		<img src="images/cl0.jpg"  alt="">
+	</div></article>
+	<article class="slide cover w"><div>
+		<img src="images/cl1.jpg"  alt="">
+	</div></article>
+	<article class="slide cover w"><div>
+		<img src="images/cl2.jpg"  alt="">
+	</div></article>
+	<article class="slide cover w"><div>
+		<img src="images/cl3.jpg"  alt="">
+	</div></article>
+	<article class="slide cover w"><div>
+		<img src="images/cl-event.jpg"  alt="">
 	</div></article>
 	<article class="slide m-lh"><div>
 		<h2>Layer Trigger</h2>
@@ -315,72 +332,99 @@
 			<code>	will-change: transform; <mark class="comment">/* chromium, firefox */</mark></code>
 			<code>}</code>
 		</pre>
-
-	</div></article>
-	<article class="slide cover w h"><div>
-		<img src="images/layers.jpg" height="768" width="1024">
-	</div></article>
-	<article class="slide cover w"><div>
-		<img src="images/critical_rendering_path.PNG" alt="">
 	</div></article>
 	<article class="slide shout"><div>
-		<h2>Простой пример</h2>
+		<h2>Простые примеры</h2>
 	</div></article>
-	<article class="slide m-fs"><div>
-		<ul>
-			<li><a target="_blank" href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer?hl=ru">Сжатие ресурсов</a></li>
-			<li><a target="_blank" href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer?hl=ru#gzip">GZIP</a></li>
-			<li><a target="_blank" href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=ru">Кеширование</a></li>
-		</ul>
+	<article class="slide cover w"><div>
+		<img src="images/ex-html.jpg"  alt="">
 	</div></article>
-	<article class="slide m-fs"><div>
-		<ul>
-			<li><a target="_blank" href="http://www.webpagetest.org/">WebPageTest</a></li>
-			<li><a target="_blank" href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a></li>
-		</ul>
+	<article class="slide cover w"><div>
+		<img src="images/ex-css1.jpg"  alt="">
+	</div></article>
+	<article class="slide cover w"><div>
+		<img src="images/ex-css2.jpg"  alt="">
+	</div></article>
+	<article class="slide shout less-header"><div>
+		<h2>CSS - render blocking</h2>
+	</div></article>
+	<article class="slide cover w"><div>
+		<img src="images/ex-media.jpg"  alt="">
+	</div></article>
+	<article class="slide shout less-header"><div>
+		<h2>JavaScript</h2>
+	</div></article>
+	<article class="slide shout less-header"><div>
+		<h2>JS - parser blocking</h2>
+	</div></article>
+	<article class="slide cover w"><div>
+		<img src="images/ex-js.jpg"  alt="">
+	</div></article>
+	<article class="slide cover w"><div>
+		<img src="images/ps-intro.jpg"  alt="">
+	</div></article>
+	<article class="slide shout"><div>
+		<h2>Preload Scanner</h2>
+	</div></article>
+	<article class="slide cover w"><div>
+		<img src="images/ex-js2.jpg"  alt="">
+	</div></article>
+	<article class="slide shout less-header"><div>
+		<h2>Скрипты в конце тега body</h2>
+	</div></article>
+	<article class="slide cover w"><div>
+		<img src="images/js-ex3.jpg"  alt="">
+	</div></article>
+	<article class="slide cover w"><div>
+		<img src="images/ex-js4.jpg"  alt="">
+	</div></article>
+	<article class="slide cover w"><div>
+		<img src="images/ex-js-5.jpg"  alt="">
 	</div></article>
 	<article class="slide shout"><div>
 		<h2>Rerendering</h2>
 	</div></article>
 	<article class="slide cover"><div>
-		<img src="images/r-steps.jpg" height="768" width="1024" alt="">
+		<img src="images/r-steps.jpg" alt="">
 	</div></article>
-	<article class="slide m-fs"><div>
-		<a target="_blank" href="http://csstriggers.com/">http://csstriggers.com/</a>
-	</div></article>
-	<article class="slide cover"><div>
-		<img src="images/r-steps2.jpg" height="768" width="1024" alt="">
-	</div></article>
-	<article class="slide cover"><div>
-		<img src="images/r-steps3.jpg" height="768" width="1024" alt="">
-	</div></article>
-	<article class="slide cover w h "><div>
-		<img src="images/forced.jpg" height="768" width="1024" alt="">
-	</div></article>
-	<article class="slide m-fs"><div>
+	<article class="slide x-fs" lang="ru"><div>
+		<h2>Layout triggers</h2>
 		<ul>
-			<li>60Hz - 60 кадров/c</li>
-			<li>1000 / 60 = 16.67</li>
-			<li>16</li>
+			<li>width</li>
+			<li>height</li>
+			<li>margin</li>
+			<li>padding</li>
+			<li>...</li>
 		</ul>
 	</div></article>
 	<article class="slide cover"><div>
-		<img src="images/slide_59.jpg" height="768" width="1024">
+		<img src="images/r-steps.jpg" alt="">
+	</div></article>
+	<article class="slide x-fs" lang="ru"><div>
+		<h2>Paint triggers</h2>
+		<ul>
+			<li>background</li>
+			<li>color</li>
+			<li>box-shadow</li>
+			<li>border-radius</li>
+			<li>...</li>
+		</ul>
 	</div></article>
 	<article class="slide cover"><div>
-		<img src="images/slide_60.jpg" height="768" width="1024">
+		<img src="images/r-steps2.jpg" alt="">
+	</div></article>
+	<article class="slide x-fs" lang="ru"><div>
+		<h2>Composite triggers</h2>
+		<ul>
+			<li>transforms</li>
+			<li>opacity</li>
+		</ul>
 	</div></article>
 	<article class="slide cover"><div>
-		<img src="images/slide_61.jpg" height="768" width="1024">
+		<img src="images/r-steps3.jpg" alt="">
 	</div></article>
-	<article class="slide cover"><div>
-		<img src="images/slide_62.jpg" height="768" width="1024">
-	</div></article>
-	<article class="slide cover w h"><div>
-		<img src="images/slide_119.jpg" height="768" width="1024">
-	</div></article>
-	<article class="slide cover w h"><div>
-		<img src="images/slide_120.jpg" height="768" width="1024">
+	<article class="slide m-fs"><div>
+		<a target="_blank" href="http://csstriggers.com/">http://csstriggers.com/</a>
 	</div></article>
 	<article class="slide"><div>
 		<h2>Что делать дальше?</h2>
